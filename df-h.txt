@@ -1,0 +1,14 @@
+Sist. Arq.                       Tam. Usado Disp. Uso% Montado em
+udev                              63G     0   63G   0% /dev
+tmpfs                             13G  2,3M   13G   1% /run
+/dev/mapper/vg--debian-db--root   46G  4,5G   39G  11% /
+tmpfs                             63G     0   63G   0% /dev/shm
+tmpfs                            5,0M     0  5,0M   0% /run/lock
+/dev/mapper/vg--debian-db--home   46G  1,1G   43G   3% /home
+/dev/mapper/vg--incus-lv--incus  916G   28K  869G   1% /srv/incus
+/dev/mapper/vg--debian-db--tmp    37G   48K   35G   1% /tmp
+/dev/mapper/vg--debian-db--var   458G  373G   66G  86% /var
+tmpfs                             50M     0   50M   0% /var/lib/incus/devices
+tmpfs                            100K     0  100K   0% /var/lib/incus/shmounts
+tmpfs                            100K     0  100K   0% /var/lib/incus/guestapi
+tmpfs                             13G     0   13G   0% /run/user/1000
