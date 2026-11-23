@@ -1,2 +1,2 @@
-[36mlo               [0mUNKNOWN        [35m127.0.0.1[0m/8 
-[36menp5s0           [0m[32mUP             [0m[35m10.161.150.14[0m/16 metric 1024 
+lo               UNKNOWN        127.0.0.1/8 
+enp5s0           UP             10.161.150.14/16 metric 1024 

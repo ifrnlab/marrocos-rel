@@ -79,7 +79,7 @@ for vm in "${vms[@]}"; do
         > "${vm}/free-h.txt"
 
     # Interfaces de rede IPv4.
-    incus exec "${vm}" -- ip -br -c -4 address \
+    incus exec "${vm}" -- ip -br -4 address \
         > "${vm}/ip-br-c-4-address.txt"
 
     echo "Relatórios concluídos: ${vm}"
