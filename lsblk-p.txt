@@ -1,0 +1,25 @@
+NAME                                  MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
+/dev/sda                                8:0    0   931G  0 disk 
+`-/dev/sda1                             8:1    0   931G  0 part 
+  `-/dev/mapper/vg--debian-db--var    254:2    0 465.5G  0 lvm  /var/lib/incus/devices/pc-proxy/config.mount
+                                                                /var/lib/incus/devices/gitlab-mange/config.mount
+                                                                /var/lib/incus/devices/pc-jupyter/config.mount
+                                                                /var
+/dev/sdb                                8:16   0   931G  0 disk 
+`-/dev/sdb1                             8:17   0   931G  0 part 
+  `-/dev/mapper/vg--incus-lv--incus   254:0    0   931G  0 lvm  /srv/incus
+/dev/sdc                                8:32   0   931G  0 disk 
+|-/dev/sdc1                             8:33   0     1M  0 part 
+|-/dev/sdc2                             8:34   0     1G  0 part 
+`-/dev/sdc3                             8:35   0   930G  0 part 
+  `-/dev/mapper/ubuntu--vg-ubuntu--lv 254:5    0   400G  0 lvm  
+/dev/sdd                                8:48   0 223.6G  0 disk 
+`-/dev/sdd1                             8:49   0 223.6G  0 part 
+  |-/dev/mapper/vg--debian-db--root   254:1    0  46.6G  0 lvm  /
+  |-/dev/mapper/vg--debian-db--var    254:2    0 465.5G  0 lvm  /var/lib/incus/devices/pc-proxy/config.mount
+  |                                                             /var/lib/incus/devices/gitlab-mange/config.mount
+  |                                                             /var/lib/incus/devices/pc-jupyter/config.mount
+  |                                                             /var
+  |-/dev/mapper/vg--debian-db--home   254:3    0  46.6G  0 lvm  /home
+  `-/dev/mapper/vg--debian-db--tmp    254:4    0  37.3G  0 lvm  /tmp
+/dev/sr0                               11:0    1  1024M  1 rom  

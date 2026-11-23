@@ -1,0 +1,49 @@
+config: {}
+description: Default Incus profile
+devices:
+  eth0:
+    name: eth0
+    network: incusbr0
+    type: nic
+  root:
+    path: /
+    pool: default
+    type: disk
+name: default
+used_by:
+- /1.0/instances/oulu
+- /1.0/instances/napne-par
+- /1.0/instances/pc-gitea
+- /1.0/instances/pc-gitlab
+- /1.0/instances/pc-openproj
+- /1.0/instances/pc-tec-60
+- /1.0/instances/info3-alpine
+- /1.0/instances/redes2
+- /1.0/instances/info3
+- /1.0/instances/info3m
+- /1.0/instances/info3v
+- /1.0/instances/lua
+- /1.0/instances/marte
+- /1.0/instances/mercurio
+- /1.0/instances/pc-gitea-2026
+- /1.0/instances/pc-proxy
+- /1.0/instances/pc-samba
+- /1.0/instances/pc-teresina
+- /1.0/instances/pc-campinas
+- /1.0/instances/pc-terminal
+- /1.0/instances/pc-rootfs
+- /1.0/instances/pc-gitea-bytelink
+- /1.0/instances/pc-gitea-helptech
+- /1.0/instances/pc-gitea-pentabyte
+- /1.0/instances/pc-gitea-voxcloud
+- /1.0/instances/pc-gitea-redes4
+- /1.0/instances/alma10
+- /1.0/instances/pc-jupyter
+- /1.0/instances/conab-vm
+- /1.0/instances/gitlab-mange
+- /1.0/instances/tsi4-tellus-bugada
+- /1.0/instances/tsi2-tellus
+- /1.0/instances/pc-monitor
+- /1.0/instances/tellus-redes23
+- /1.0/instances/tsi4-tellus
+project: default
